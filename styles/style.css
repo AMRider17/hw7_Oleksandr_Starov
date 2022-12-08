@@ -1,0 +1,110 @@
+/* 10 */
+.header__logo {
+    float: left;
+}
+.menu {
+    font-size: 0;
+    background: gray;
+    border-bottom: 5px solid rgb(103, 103, 246);
+}
+
+/* 10 */
+.menu__item, .sub__submenu__item {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* 10 */
+.menu__link, .submenu__link, .sub__submenu__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* 10 */
+.menu__link {
+    position: relative;
+}
+
+/* 30 */
+.menu__item:hover .submenu, .submenu__item:hover .sub__submenu {
+    display: block;
+}
+
+/* 10 */
+.submenu, .sub__submenu {
+    position: absolute;
+    display: none;
+    
+}
+
+/* 10 */
+.submenu__item, .sub__submenu__item {
+    border: 0.5px solid blue;
+}
+
+/* 10 */
+.submenu__item:nth-child(2) {
+border-top: 0px;
+}
+
+/* 10 */
+.submenu__item, 
+.sub__submenu__item, 
+/* 20 */
+.menu__item:hover, .menu__item:hover .submenu {
+    background: rgb(103, 103, 246);
+}
+
+/* 1 */
+.submenu {
+    left: 197px;
+    top: 37px;
+}
+
+/* 10 */
+.sub__submenu {
+    left: 177.8px;
+    top: 36.3px;
+    margin: 5px;
+}
+
+/* 20 */
+.sub__submenu__item:nth-child(2) {
+    border-top: 0px;
+}
+
+/* 20 */
+.sub__submenu__item:nth-child(1) {
+    border-left: 0.5px;
+}
+
+/* 1 */
+li {
+    padding: 10.5px;
+}
+
+/* 1 */
+span {
+    padding-left: 64px;
+}
+
+/* 10 */
+.submenu__link {
+    padding-left: 18px;
+    padding-right: 6px;
+}
+
+/* 10 */
+.sub__submenu__link {
+    padding-left: 18px;
+    padding-right: 130px;
+}
+
+/* 30 */
+.menu__item:hover .submenu {
+    padding-top: 4px;
+}
+
+.main__item {
+    padding: 10px;
+}
